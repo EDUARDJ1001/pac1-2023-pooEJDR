@@ -17,6 +17,8 @@ namespace basico.tipos_datos
             String sNombre = this.saludo + ", Juan Perez";
 
             Console.WriteLine(sNombre);
+            Console.ReadKey();
+
         }
     }
 }
