@@ -21,7 +21,11 @@ namespace basico
 
             //CondicionIf condicionIf = new CondicionIf();
 
-            Promedios promedios= new Promedios();
+            //Promedios promedios= new Promedios();
+
+            //Vocales vocales = new Vocales();
+            
+            ListarNumero01 listarNumero01 = new ListarNumero01();
             Console.ReadKey();
            
         }
