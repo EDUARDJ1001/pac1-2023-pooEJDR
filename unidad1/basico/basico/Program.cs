@@ -20,12 +20,13 @@ namespace basico
             //Tipos02 tipos02 = new Tipos02();
 
             //CondicionIf condicionIf = new CondicionIf();
-
             //Promedios promedios= new Promedios();
-
             //Vocales vocales = new Vocales();
+            //ListarNumero01 listarNumero01 = new ListarNumero01();
+            //ListarNumero03 listarNumero03 = new ListarNumero03();
+            //ListarNumero04 listarNumero04 = new ListarNumero04();
             
-            ListarNumero01 listarNumero01 = new ListarNumero01();
+            ListarNumeros05 listarNumero05 = new ListarNumeros05();
             Console.ReadKey();
            
         }

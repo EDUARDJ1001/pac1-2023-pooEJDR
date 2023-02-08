@@ -15,9 +15,9 @@ namespace basico.estructuras_control
              *while(condicion) {...}
              */
 
-            bool continuarlistando = true;
+            bool continuarListando = true;
 
-            while (continuarlistando)
+            while (continuarListando)
             { 
                 Console.WriteLine("Listar numero hasta: ");
                 int limite = int.Parse(Console.ReadLine());
@@ -32,8 +32,9 @@ namespace basico.estructuras_control
                 string respuesta = Console.ReadLine().ToUpper();
                 if (respuesta != "S")
                 {
-                    continuarlistando = false;
+                    continuarListando = false;
                 }
+                Console.Clear();
             }
 
 

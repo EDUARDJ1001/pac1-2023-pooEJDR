@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1A623B35-7E60-452E-AFE8-FF108C4034F6}</ProjectGuid>
+    <ProjectGuid>{2822306C-9732-4756-BC28-28F08DFC3C15}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>basico</RootNamespace>
-    <AssemblyName>basico</AssemblyName>
+    <RootNamespace>EjerciciosSemana2Eduard</RootNamespace>
+    <AssemblyName>EjerciciosSemana2Eduard</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="estructuras-control\CondicionIf.cs" />
-    <Compile Include="estructuras-control\ListarNumero01.cs" />
-    <Compile Include="estructuras-control\ListarNumero03.cs" />
-    <Compile Include="estructuras-control\ListarNumero04.cs" />
-    <Compile Include="estructuras-control\ListarNumeros05.cs" />
-    <Compile Include="estructuras-control\Promedios.cs" />
-    <Compile Include="estructuras-control\Vocales.cs" />
+    <Compile Include="ejercicios\ejercicio01.cs" />
+    <Compile Include="ejercicios\ejercicio02.cs" />
+    <Compile Include="ejercicios\ejercicio03.cs" />
+    <Compile Include="ejercicios\ejercicio04.cs" />
+    <Compile Include="ejercicios\ejercicio05.cs" />
+    <Compile Include="ejercicios\ejercicio06.cs" />
+    <Compile Include="ejercicios\ejercicio07.cs" />
+    <Compile Include="ejercicios\ejercicio08.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="tipos-datos\Tipos01.cs" />
-    <Compile Include="tipos-datos\Tipos02.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

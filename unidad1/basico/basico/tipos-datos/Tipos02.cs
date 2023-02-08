@@ -19,7 +19,7 @@ namespace basico.tipos_datos
             Console.WriteLine("Ingrese su edad: ");
 
             //Boolean
-            Console.WriteLine("Ingrese su genero");
+            Console.WriteLine("Ingrese su genero: ");
             bool genero = bool.Parse(Console.ReadLine());
 
             //Salidas de texto
